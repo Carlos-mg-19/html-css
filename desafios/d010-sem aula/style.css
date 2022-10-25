@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#44E379;
+}
+
+.menu .box-container{
+    background-color: #00DE4A;
+
+}
+
+.menu .box-container h1{
+    text-align: center;
+    color: white;
+    font-family: 'Bebas Neue',cursive;
+    font-weight: normal;
+    font-size: 2em;
+    padding: 20px;
+    margin: 0;
+}
+
+.menu .box-container h2{
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.menu .box-container div{
+    padding: 20px;
+}
+
+.menu .box-container div a{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    padding: 8px;
+    border-radius: 7px;
+}
+
+.menu .box-container div a:hover{
+    background-color: green;
+   
+}
+
+.contexto{
+   
+    margin: auto;
+    width: 850px;
+   background-color: white;
+}
+
+.contexto .box-container h1{
+    font-family:'idroid';
+    color: rgb(25, 199, 25);
+    font-size: 1.7em;
+    padding:20px;
+    text-indent: 30px;
+    margin: 0;
+}
+
+.contexto .box-container p{
+    text-align: justify;
+    color: black;
+    text-indent: 16px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+    margin: 0;
+}
+
+.contexto .box-container p a{
+    color: rgb(25, 199, 25);
+}
+
+.contexto .box-container h2{
+    font-family: 'idroid';
+    color: rgb(25, 199, 25);
+    background-color: rgba(25, 199, 25, 0.068);
+    text-indent: 36px;
+}
+
+.contexto .box-container img{
+    margin: auto;
+    display: block;
+}
+.contexto .box-container .iframe iframe{
+    margin: auto;
+    display: block;
+    border: 35px solid #005E1F;
+   
+}
+
+.contexto .box-container .tabela h2{
+    background-color: #00AB39;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    text-indent: 10px;
+    margin: 0;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.contexto .box-container .tabela {
+    background-color: rgba(30, 172, 30, 0.288);
+    width: 800px;
+    height: 460px;
+    margin: auto;
+    margin-top: 20px;
+   border: 1px solid transparent;
+   border-radius: 20px;
+}
+
+.contexto .box-container .tabela .tba  {
+    display: block;
+    display: flexbox;
+    display: flex;
+    margin: 0;
+    gap: 13em;
+    font-size: 0.9em;
+    
+   
+}
+
+.contexto .box-container .tabela .tba div ul{
+    margin: 0;
+}
+
+
+.contexto .box-container .tabela .tba ul{
+    list-style: none;
+}
+
+.contexto .box-container .tabela .tba a::before{
+    content: '✔';
+    color: black;
+    text-decoration: none;
+}
+footer{
+    margin: 0;
+
+
+}
+footer p{
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer p a{
+    color: rgb(0, 255, 0);
+}
+
+
+

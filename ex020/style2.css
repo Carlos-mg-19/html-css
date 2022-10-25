@@ -1,0 +1,18 @@
+
+h1{
+    color: blue;
+}
+div:hover{
+    color: blue;
+}
+div > p{
+   display: none;
+}
+
+div:hover > P{
+  display: block;  
+  color: aqua;
+  background-color: blue;
+  width: 300px;
+
+}

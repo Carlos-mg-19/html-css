@@ -1,0 +1,24 @@
+h1{
+    margin: 10px;
+
+    width: 200px;
+    height: 200px;
+    
+    border: 1px solid aqua;
+    padding: 5px ;
+    outline: 10px double aqua;
+}
+
+a{
+    display: inline-block;
+    margin: 8px ;
+    padding: 4px ;
+    text-decoration: none;
+    color: white;
+    background-color:rgb(255, 0, 0);
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
