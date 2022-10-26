@@ -6,15 +6,19 @@
 
 @import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
 
-
-body{
+*{
     margin: 0;
     padding: 0;
+}
+
+body{
+
     background-color:#44E379;
 }
 
 .menu .box-container{
     background-color: #00DE4A;
+    
 
 }
 
@@ -50,13 +54,15 @@ body{
 
 .menu .box-container div a:hover{
     background-color: green;
+    
    
 }
 
 .contexto{
-   
+    min-width: 300px;
+    max-width: 800px;
     margin: auto;
-    width: 850px;
+   padding: 20px;
    background-color: white;
 }
 
@@ -83,69 +89,58 @@ body{
     color: rgb(25, 199, 25);
 }
 
-.contexto .box-container h2{
+.contexto .box-container > h2{
     font-family: 'idroid';
     color: rgb(25, 199, 25);
     background-color: rgba(25, 199, 25, 0.068);
     text-indent: 36px;
 }
 
-.contexto .box-container img{
+.contexto .box-container .img{
+    max-width: 320px;
     margin: auto;
     display: block;
-}
-.contexto .box-container .iframe iframe{
-    margin: auto;
-    display: block;
-    border: 35px solid #005E1F;
-   
 }
 
-.contexto .box-container .tabela h2{
-    background-color: #00AB39;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+.iframe{
+    background-color: green;
+    margin: 0px -20px 30px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 50%;
+}
+
+div .iframe > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside{
+    background-color:#44E379 ;
+    border-radius: 10px;
     padding: 10px;
-    text-indent: 10px;
-    margin: 0;
-    border-radius: 20px 20px 0px 0px;
 }
 
-.contexto .box-container .tabela {
-    background-color: rgba(30, 172, 30, 0.288);
-    width: 800px;
-    height: 460px;
-    margin: auto;
-    margin-top: 20px;
-   border: 1px solid transparent;
-   border-radius: 20px;
+aside ul{
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
 }
+aside h2{
+    color: white;
+    font-size: 1.7em;
+    font-weight: bold;
+    background-color: green;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px ;
+    padding: 10px;
 
-.contexto .box-container .tabela .tba  {
-    display: block;
-    display: flexbox;
-    display: flex;
-    margin: 0;
-    gap: 13em;
-    font-size: 0.9em;
-    
-   
 }
+ 
 
-.contexto .box-container .tabela .tba div ul{
-    margin: 0;
-}
-
-
-.contexto .box-container .tabela .tba ul{
-    list-style: none;
-}
-
-.contexto .box-container .tabela .tba a::before{
-    content: '✔';
-    color: black;
-    text-decoration: none;
-}
 footer{
     margin: 0;
 
