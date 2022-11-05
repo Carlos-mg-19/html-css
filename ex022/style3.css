@@ -1,0 +1,9 @@
+body{
+    background-image: url(imagens/pattern001.png);
+    background-size: 100px ;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    height:98vh ;
+    
+    border: 1px dashed black;
+}
