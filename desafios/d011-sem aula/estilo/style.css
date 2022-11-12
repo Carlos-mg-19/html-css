@@ -53,7 +53,7 @@ section{
     font-size: 3.5vw;
     line-height: 2em;
 }
-.normal{
+section.normal{
     background-color: white;
     color: black;
 }
@@ -68,11 +68,18 @@ section{
 }
 
 section#img01{
-    background-image: url("");
+    background-image: url("001.jpg");
+    background-position: right center;
+}
+
+section#img02{
+    background-image: url(002.jpg);
     background-position: right center;
 }
 .imagem > p{
     padding: 5px;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.514);
+    color: white;
 }
+
