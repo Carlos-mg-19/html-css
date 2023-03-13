@@ -30,3 +30,11 @@ main{
     background: url('../imagens/frame-iphone.png') no-repeat;
     
 }
+iframe{
+    position: relative;
+    top: 12.5%;
+    left: 8%;
+    width: 264px;
+    height: 470px;
+    
+}
