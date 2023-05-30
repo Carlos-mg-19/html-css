@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+menu{
+    display: none;
+}
+article::after{
+    width: 100%;
+    content: "Esse artigo foi empresso pelo site de estudo do curso";
+}
